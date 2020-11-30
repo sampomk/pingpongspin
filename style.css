@@ -1,0 +1,111 @@
+body {
+  margin: 0px; 
+  font-family: open sans;
+  height: 600px;
+}
+
+.logo {
+  width: 60px;
+  padding: left;
+}
+
+.about {
+  width: 500px;
+}
+
+#header {
+  background-color: #ff8000;
+  height: 90px;
+  padding: 25px;
+  font-size: 10px;
+}
+
+#menu {
+  position: sticky;
+  top: 0px; 
+  height: 10px;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  position: sticky;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:	#D3D3D3;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+
+#bg {
+  background-image: url("pingpongspin.jpg");
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#content {
+  height: 1000px;
+  padding: 75px;
+  color: black;
+  text-align: center;
+}
+
+#content2 {
+  height: 1400 px;
+   padding: 75px;
+  color: black;
+  text-align: center;
+  img: autoscale; 
+}
+
+#footer { 
+  background-color: #D3D3D3;
+  height: 40px; 
+  padding: 10px; 
+  text-align: center; 
+}
+
+.contactsphoto {
+  width: 450px;
+}
+
+.contactstext {
+  padding: 175px;
+}
+
+.row {
+  height: 600px;
+}
+
+.column {
+  padding: 75px;
+  padding-top: 75px;
+  float: left;
+}
+
+.spin-content {
+  height: 2300px;
+}
+
+.shop-content{
+  height: 2000px;
+  width: 1800px;
+  
+}
+</style> 
